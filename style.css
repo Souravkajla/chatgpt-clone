@@ -1,0 +1,271 @@
+#mainman {
+  display: flex;
+}
+
+#sidebar {
+  background-color: #171717;
+  height: 100vh;
+  width: 18vw;
+}
+
+#mainbar {
+  background-color: #212121;
+  height: 100vh;
+  width: 82vw;
+}
+
+.gptlogo {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 45px;
+  width: 230px;
+  padding-left: 10px;
+}
+
+.gptlogo:hover {
+  background-color: #212121;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.chatgpt {
+  height: 3.5vh;
+  border-radius: 50%;
+}
+
+.newchat {
+  display: flex;
+  gap: 110px;
+}
+
+.previous {
+  color: #9b9b9b;
+  font-size: 12px;
+  font-family: "Rubik", sans-serif;
+  padding-left: 8px;
+}
+
+.rotate {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  height: 35px;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.rotate:hover {
+  background-color: #212121;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.previous2 {
+  color: #9b9b9b;
+  font-size: 12px;
+  font-family: "Rubik", sans-serif;
+  padding-left: 8px;
+  padding-bottom: 12px;
+}
+
+.texts2 {
+  margin-top: 30px;
+  margin-left: 12px;
+}
+
+.plan {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+.get {
+  color: #9b9b9b;
+  font-size: 12px;
+  font-family: "Rubik", sans-serif;
+}
+
+#star {
+  border: 1px solid #9b9b9b;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 230px;
+  border-radius: 10px;
+  gap: 10px;
+  margin-left: 12px;
+  padding-left: 8px;
+}
+
+.star:hover {
+  background-color: #212121;
+  cursor: pointer;
+}
+
+#sk {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  background-color: #7f8c8d;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+
+#name {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  height: 50px;
+  width: 230px;
+  border-radius: 10px;
+  gap: 10px;
+  margin-left: 12px;
+  padding-left: 8px;
+}
+
+#name:hover {
+  background-color: #212121;
+  cursor: pointer;
+}
+
+#starname {
+  margin-top: 120px;
+}
+
+/* 
+new styling */
+
+.chatname {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+#down {
+  font-size: 10px;
+}
+.mainname {
+  color: #b4b4b4;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.mainname:hover {
+  background-color: #2f2f2f;
+  cursor: pointer;
+}
+
+.chatgpt2 {
+  height: 6.4vh;
+  width: 3.5vw;
+  border-radius: 50%;
+}
+
+.how {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.snippet {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  border: 1px solid #7f8c8d;
+  height: 60px;
+  width: 340px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.snippet:hover {
+  background-color: #2f2f2f;
+  cursor: pointer;
+}
+
+.sticky {
+  color: #9b9b9b;
+  font-family: "Rubik", sans-serif;
+}
+
+.boxtext {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 220px;
+}
+
+.boxtext2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#input {
+  height: 35px;
+  width: 700px;
+  background-color: #212121;
+  border: 1px solid #9b9b9b;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-left: 230px;
+  margin-top: 15px;
+}
+
+.make {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
