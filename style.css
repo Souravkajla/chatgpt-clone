@@ -62,6 +62,17 @@
   padding-left: 8px;
 }
 
+#dots:hover,
+.rotate:hover {
+  display: flex;
+}
+
+#dots {
+  display: none;
+  gap: 10px;
+}
+
+
 .rotate:hover {
   background-color: #212121;
   border-radius: 10px;
